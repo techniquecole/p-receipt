@@ -25,7 +25,6 @@ const urlsToCacheV1 = [
 ];
 
 const urlsToCacheV2 = [
-  '/whenfive.com',
   '/whenfive.html',
   '/whenfive.css',
   '/whenfive.js',
