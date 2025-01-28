@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url=p-receipt.html">
     <title>Redirecting...</title>
+    <script>
+        window.onload = function() {
+            var urls = ["p-receipt1.html", "p-receipt2.html", "p-receipt3.html", "p-receipt4.html"];
+            var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+            window.location.href = randomUrl;
+        };
+    </script>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="p-receipt.html">link</a>.</p>
+    <p>If you are not redirected automatically, follow this <a id="redirect-link" href="#">link</a>.</p>
+    <script>
+        document.getElementById('redirect-link').href = randomUrl;
+    </script>
 </body>
 </html>
