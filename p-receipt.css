@@ -38,6 +38,7 @@ body{
     border: 6px dashed;
     animation-name: slideUp;;
     animation-duration: 1.5s;
+    overflow: auto;
 }    
 @keyframes slideUp{
     from{transform: translateY(450px)}
