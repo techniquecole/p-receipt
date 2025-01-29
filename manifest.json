@@ -1,6 +1,6 @@
 {
-    "name": "P-Receipt",
-    "short_name": "P-Receipt",
+    "name": "p-receipt",
+    "short_name": "p-receipt",
     "description": "A utility to manage cost of expenses",
     "start_url": "p-receipt.html",
     "display": "standalone",
