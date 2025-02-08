@@ -5,7 +5,7 @@ const CACHE_NAME_V4 = 'wygomp-cache-v4';
 
 const urlsToCacheV1 = [
   '/',
-  '/p-receipt.html',
+  '/index.html',
   '/p-receipt.css',
   '/p-receipt.js',
   '/images/priceyfav.png',
