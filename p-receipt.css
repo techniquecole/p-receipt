@@ -1,3 +1,14 @@
+.install-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 70%;
+    position: absolute;
+    
+}
 @font-face {
         src: url(fonts/doto.ttf);
         font-family: doto;
